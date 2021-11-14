@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/dev/Android/LgAiApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.47708333333333336" />
+        <entry key="..\:/dev/Android/LgAiApp/app/src/main/res/drawable/bottom_round_button.xml" value="0.47708333333333336" />
+        <entry key="..\:/dev/Android/LgAiApp/app/src/main/res/drawable/bottom_round_button_select.xml" value="0.3729166666666667" />
+        <entry key="..\:/dev/Android/LgAiApp/app/src/main/res/drawable/button_selector.xml" value="0.3729166666666667" />
+        <entry key="..\:/dev/Android/LgAiApp/app/src/main/res/drawable/round_button.xml" value="0.3729166666666667" />
+        <entry key="..\:/dev/Android/LgAiApp/app/src/main/res/drawable/round_button_select.xml" value="0.3729166666666667" />
+        <entry key="..\:/dev/Android/LgAiApp/app/src/main/res/drawable/white_round_box.xml" value="0.47708333333333336" />
+        <entry key="..\:/dev/Android/LgAiApp/app/src/main/res/layout/activity_main.xml" value="0.5373134175396416" />
+        <entry key="..\:/dev/Android/LgAiApp/app/src/main/res/layout/item_button_square.xml" value="0.4609375" />
+        <entry key="..\:/dev/Android/lgaiapp/app/src/main/res/drawable/button_selector.xml" value="0.6088541666666667" />
+        <entry key="..\:/dev/Android/lgaiapp/app/src/main/res/layout/activity_main.xml" value="0.43174603174603177" />
+        <entry key="..\:/dev/Android/lgaiapp/app/src/main/res/layout/fragment_choose1.xml" value="0.5842391304347826" />
+        <entry key="..\:/dev/Android/lgaiapp/app/src/main/res/layout/fragment_choose2.xml" value="0.28824721377912865" />
+        <entry key="..\:/dev/Android/lgaiapp/app/src/main/res/layout/item_button_rect.xml" value="0.3567708333333333" />
+        <entry key="..\:/dev/Android/lgaiapp/app/src/main/res/layout/item_button_square.xml" value="0.5842391304347826" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

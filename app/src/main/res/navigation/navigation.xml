@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@+id/choose1">
+
+
+    <fragment
+        android:id="@+id/choose1"
+        android:name="io.muracle.lgaiapp.ChooseFragment1"
+        android:label="choose1"
+        tools:layout="@layout/fragment_choose1" >
+
+        <action
+            android:id="@+id/choose1To2"
+            app:destination="@+id/choose2"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/choose2"
+        android:name="io.muracle.lgaiapp.ChooseFragment2"
+        android:label="choose2"
+        tools:layout="@layout/fragment_choose2" >
+
+        <action
+            android:id="@+id/choose2To1"
+            app:destination="@+id/choose1"/>
+
+    </fragment>
+
+</navigation>
