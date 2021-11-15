@@ -20,5 +20,5 @@ class Constants {
 }
 
 enum class PAGE {
-    CHOOSE1, CHOOSE2
+    CHOOSE1, CHOOSE2, CHOOSE3, CHOOSE4
 }

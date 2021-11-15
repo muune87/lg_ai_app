@@ -23,9 +23,40 @@
         android:label="choose2"
         tools:layout="@layout/fragment_choose2" >
 
+
         <action
             android:id="@+id/choose2To1"
             app:destination="@+id/choose1"/>
+        <action
+            android:id="@+id/choose2To3"
+            app:destination="@+id/choose3"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/choose3"
+        android:name="io.muracle.lgaiapp.ChooseFragment3"
+        android:label="choose3"
+        tools:layout="@layout/fragment_choose3" >
+
+        <action
+            android:id="@+id/choose3To2"
+            app:destination="@+id/choose2"/>
+        <action
+            android:id="@+id/choose3To4"
+            app:destination="@+id/choose4"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/choose4"
+        android:name="io.muracle.lgaiapp.ChooseFragment4"
+        android:label="choose4"
+        tools:layout="@layout/fragment_choose4" >
+
+        <action
+            android:id="@+id/choose4To3"
+            app:destination="@+id/choose3"/>
 
     </fragment>
 

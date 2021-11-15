@@ -16,16 +16,17 @@ import io.muracle.lgaiapp.adapter.RadioViewAdapter
 import io.muracle.lgaiapp.adapter.RadioViewAdapter2
 import io.muracle.lgaiapp.adapter.SpacesItemDecoration
 import io.muracle.lgaiapp.adapter.item.CheckItem
-import io.muracle.lgaiapp.databinding.FragmentChoose2Binding
+import io.muracle.lgaiapp.databinding.FragmentChoose3Binding
+import io.muracle.lgaiapp.databinding.FragmentChoose4Binding
 import io.muracle.lgaiapp.utils.Constants
 import io.muracle.lgaiapp.utils.PAGE
 import java.util.*
 import kotlin.collections.ArrayList
 
 
-class ChooseFragment2 : Fragment() {
+class ChooseFragment4 : Fragment() {
     private lateinit var viewModel: MainViewModel
-    private var _binding: FragmentChoose2Binding? = null
+    private var _binding: FragmentChoose4Binding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -33,45 +34,43 @@ class ChooseFragment2 : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        Log.i(Constants.TAG, "ChooseFragment2 onCreateView")
+        Log.i(Constants.TAG, "ChooseFragment4 onCreateView")
 
-        _binding = FragmentChoose2Binding.inflate(inflater, container, false)
+        _binding = FragmentChoose4Binding.inflate(inflater, container, false)
         activity?.let {
             viewModel = ViewModelProvider(it).get(MainViewModel::class.java)
-            viewModel.currentDestination.value = PAGE.CHOOSE2
+            viewModel.currentDestination.value = PAGE.CHOOSE4
             binding.viewModel = viewModel
             binding.lifecycleOwner = this
         }
 
-
-
         val items = ArrayList<CheckItem>()
 
-        items.add(CheckItem(1,"제품등록 및 제품조작방법", false))
-        items.add(CheckItem(2,"라이프 스타일", false))
-        items.add(CheckItem(3,"UX 헬프 가이드", false))
+        items.add(CheckItem(1,"워시 타워", false))
+        items.add(CheckItem(2,"트윈워시", false))
+        items.add(CheckItem(3,"드럼세탁기", false))
+        items.add(CheckItem(4,"일반세탁기", false))
+        items.add(CheckItem(5,"건조기", false))
 
-        val adapter = RadioViewAdapter2(items, viewModel.selected_choose_2) { _, pos ->
+        val adapter = RadioViewAdapter(items, viewModel.selected_choose_4) { _, pos ->
             var selectItem = items[pos]
-            viewModel.selected_choose_2 = selectItem.id
+            viewModel.selected_choose_4 = selectItem.id
             Log.i(Constants.TAG, selectItem.toString())
         }
 
-        binding.list.layoutManager = LinearLayoutManager(context)
+        val gridLayoutManager = GridLayoutManager(context, 2)
+        binding.list.addItemDecoration(SpacesItemDecoration(Constants.pxTodp(20f, resources), Constants.pxTodp(20f, resources)))
+        binding.list.layoutManager = gridLayoutManager
         binding.list.adapter = adapter
 
         binding.btnPrev.setOnClickListener {
-            findNavController().navigate(R.id.choose2To1)
+            findNavController().navigate(R.id.choose4To3)
         }
 
         binding.btnNext.setOnClickListener {
-            findNavController().navigate(R.id.choose2To3)
+
         }
-
-
 
         return binding.root
     }
-
-
 }
