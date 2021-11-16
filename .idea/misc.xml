@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/my_92/AndroidStudioProjects/lg_ai_app/app/src/main/res/layout/activity_main.xml" value="0.25271739130434784" />
         <entry key="..\:/Users/my_92/AndroidStudioProjects/lg_ai_app/app/src/main/res/layout/fragment_choose2.xml" value="0.1522289766970618" />
         <entry key="..\:/Users/my_92/AndroidStudioProjects/lg_ai_app/app/src/main/res/layout/fragment_choose3.xml" value="0.1522289766970618" />
-        <entry key="..\:/Users/my_92/AndroidStudioProjects/lg_ai_app/app/src/main/res/layout/fragment_choose4.xml" value="0.1522289766970618" />
+        <entry key="..\:/Users/my_92/AndroidStudioProjects/lg_ai_app/app/src/main/res/layout/fragment_choose4.xml" value="0.33" />
+        <entry key="..\:/Users/my_92/AndroidStudioProjects/lg_ai_app/app/src/main/res/layout/fragment_choose5.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/my_92/AndroidStudioProjects/lg_ai_app/app/src/main/res/layout/fragment_choose6.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/my_92/AndroidStudioProjects/lg_ai_app/app/src/main/res/layout/fragment_choose7.xml" value="0.25271739130434784" />
+        <entry key="..\:/Users/my_92/AndroidStudioProjects/lg_ai_app/app/src/main/res/layout/fragment_choose8.xml" value="0.25271739130434784" />
         <entry key="..\:/dev/Android/LgAiApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.47708333333333336" />
         <entry key="..\:/dev/Android/LgAiApp/app/src/main/res/drawable/bottom_round_button.xml" value="0.47708333333333336" />
         <entry key="..\:/dev/Android/LgAiApp/app/src/main/res/drawable/bottom_round_button_select.xml" value="0.3729166666666667" />

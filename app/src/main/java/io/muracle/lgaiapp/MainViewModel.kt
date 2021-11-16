@@ -12,6 +12,19 @@ class MainViewModel(application: Application): AndroidViewModel(application) {
     var selected_choose_2 = 0
 	var selected_choose_3 = 0
 	var selected_choose_4 = 0
+	var selected_choose_5 = 0
+	var selected_choose_6 = 0
+	var selected_choose_7 = 0
+	var selected_choose_8 = 0
+	var selected_choose_9 = 0
+	var selected_choose_10 = 0
+	var selected_choose_11 = 0
+	var selected_choose_12 = 0
+	var selected_choose_13 = 0
+	var selected_choose_14 = 0
+	var selected_choose_15 = 0
+	var selected_choose_16 = 0
+	var selected_choose_17 = 0
 
 }
 

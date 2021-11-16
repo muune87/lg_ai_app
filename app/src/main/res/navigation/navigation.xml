@@ -11,7 +11,6 @@
         android:name="io.muracle.lgaiapp.ChooseFragment1"
         android:label="choose1"
         tools:layout="@layout/fragment_choose1" >
-
         <action
             android:id="@+id/choose1To2"
             app:destination="@+id/choose2"/>
@@ -22,15 +21,12 @@
         android:name="io.muracle.lgaiapp.ChooseFragment2"
         android:label="choose2"
         tools:layout="@layout/fragment_choose2" >
-
-
         <action
             android:id="@+id/choose2To1"
             app:destination="@+id/choose1"/>
         <action
             android:id="@+id/choose2To3"
             app:destination="@+id/choose3"/>
-
     </fragment>
 
     <fragment
@@ -38,14 +34,12 @@
         android:name="io.muracle.lgaiapp.ChooseFragment3"
         android:label="choose3"
         tools:layout="@layout/fragment_choose3" >
-
         <action
             android:id="@+id/choose3To2"
             app:destination="@+id/choose2"/>
         <action
             android:id="@+id/choose3To4"
             app:destination="@+id/choose4"/>
-
     </fragment>
 
     <fragment
@@ -53,11 +47,178 @@
         android:name="io.muracle.lgaiapp.ChooseFragment4"
         android:label="choose4"
         tools:layout="@layout/fragment_choose4" >
-
         <action
             android:id="@+id/choose4To3"
             app:destination="@+id/choose3"/>
-
+        <action
+            android:id="@+id/choose4To5"
+            app:destination="@+id/choose5"/>
     </fragment>
+
+    <fragment
+        android:id="@+id/choose5"
+        android:name="io.muracle.lgaiapp.ChooseFragment5"
+        android:label="choose5"
+        tools:layout="@layout/fragment_choose5" >
+        <action
+            android:id="@+id/choose5To4"
+            app:destination="@+id/choose4"/>
+        <action
+            android:id="@+id/choose5To6"
+            app:destination="@+id/choose6"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/choose6"
+        android:name="io.muracle.lgaiapp.ChooseFragment6"
+        android:label="choose6"
+        tools:layout="@layout/fragment_choose6" >
+        <action
+            android:id="@+id/choose6To5"
+            app:destination="@+id/choose5"/>
+        <action
+            android:id="@+id/choose6To7"
+            app:destination="@+id/choose7"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/choose7"
+        android:name="io.muracle.lgaiapp.ChooseFragment7"
+        android:label="choose7"
+        tools:layout="@layout/fragment_choose7" >
+        <action
+            android:id="@+id/choose7To6"
+            app:destination="@+id/choose6"/>
+        <action
+            android:id="@+id/choose7To8"
+            app:destination="@+id/choose8"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/choose8"
+        android:name="io.muracle.lgaiapp.ChooseFragment8"
+        android:label="choose8"
+        tools:layout="@layout/fragment_choose8" >
+        <action
+            android:id="@+id/choose8To7"
+            app:destination="@+id/choose7"/>
+        <action
+            android:id="@+id/choose8To9"
+            app:destination="@+id/choose9"/>
+    </fragment>
+
+    <!--<fragment
+        android:id="@+id/choose9"
+        android:name="io.muracle.lgaiapp.ChooseFragment9"
+        android:label="choose9"
+        tools:layout="@layout/fragment_choose9" >
+        <action
+            android:id="@+id/choose9To8"
+            app:destination="@+id/choose8"/>
+        <action
+            android:id="@+id/choose9To10"
+            app:destination="@+id/choose10"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/choose10"
+        android:name="io.muracle.lgaiapp.ChooseFragment10"
+        android:label="choose10"
+        tools:layout="@layout/fragment_choose10" >
+        <action
+            android:id="@+id/choose10To9"
+            app:destination="@+id/choose9"/>
+        <action
+            android:id="@+id/choose10To11"
+            app:destination="@+id/choose11"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/choose11"
+        android:name="io.muracle.lgaiapp.ChooseFragment11"
+        android:label="choose11"
+        tools:layout="@layout/fragment_choose11" >
+        <action
+            android:id="@+id/choose11To10"
+            app:destination="@+id/choose10"/>
+        <action
+            android:id="@+id/choose11To12"
+            app:destination="@+id/choose12"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/choose12"
+        android:name="io.muracle.lgaiapp.ChooseFragment12"
+        android:label="choose12"
+        tools:layout="@layout/fragment_choose12" >
+        <action
+            android:id="@+id/choose12To11"
+            app:destination="@+id/choose11"/>
+        <action
+            android:id="@+id/choose12To13"
+            app:destination="@+id/choose13"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/choose13"
+        android:name="io.muracle.lgaiapp.ChooseFragment13"
+        android:label="choose13"
+        tools:layout="@layout/fragment_choose13" >
+        <action
+            android:id="@+id/choose13To12"
+            app:destination="@+id/choose12"/>
+        <action
+            android:id="@+id/choose13To14"
+            app:destination="@+id/choose14"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/choose14"
+        android:name="io.muracle.lgaiapp.ChooseFragment14"
+        android:label="choose14"
+        tools:layout="@layout/fragment_choose14" >
+        <action
+            android:id="@+id/choose14To13"
+            app:destination="@+id/choose13"/>
+        <action
+            android:id="@+id/choose14To15"
+            app:destination="@+id/choose15"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/choose15"
+        android:name="io.muracle.lgaiapp.ChooseFragment15"
+        android:label="choose15"
+        tools:layout="@layout/fragment_choose15" >
+        <action
+            android:id="@+id/choose15To14"
+            app:destination="@+id/choose14"/>
+        <action
+            android:id="@+id/choose15To16"
+            app:destination="@+id/choose16"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/choose16"
+        android:name="io.muracle.lgaiapp.ChooseFragment16"
+        android:label="choose16"
+        tools:layout="@layout/fragment_choose16" >
+        <action
+            android:id="@+id/choose16To15"
+            app:destination="@+id/choose15"/>
+        <action
+            android:id="@+id/choose16To17"
+            app:destination="@+id/choose17"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/choose17"
+        android:name="io.muracle.lgaiapp.ChooseFragment17"
+        android:label="choose17"
+        tools:layout="@layout/fragment_choose17" >
+        <action
+            android:id="@+id/choose17To16"
+            app:destination="@+id/choose16"/>
+    </fragment>-->
 
 </navigation>
